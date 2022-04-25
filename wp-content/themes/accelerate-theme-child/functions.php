@@ -37,8 +37,7 @@ function create_custom_post_types() {
                 'singular_name' => __( 'about' )
             ),
             'public' => true,
-            'has_archive' => true,
-            'rewrite' => array( 'slug' => 'about' ),
+            'has_archive' => false,
         )
     );
 

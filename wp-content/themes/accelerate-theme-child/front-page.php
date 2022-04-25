@@ -16,8 +16,8 @@ get_header(); ?>
 
 	<div id="primary" class="home-page hero-content">
 		<div class="main-content" role="main">
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php the_content(); ?>
+			<?php while ( have_posts() ) : the_post();?>
+			 <?php the_content(); ?>
 				<a class="button" href="<?php echo site_url('/case-studies/') ?>">View Our Work</a>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
@@ -88,7 +88,7 @@ get_header(); ?>
 					 <figure>
 						 <?php echo wp_get_attachment_image($image4, $size); ?>
 					 </figure>
-					 <h5><?php echo $socialMediaStrategy; ?></h5>
+					 <h5><?php echo $designDevelopment; ?></h5>
 				 </li>
 
 

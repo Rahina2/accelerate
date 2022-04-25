@@ -30,10 +30,10 @@ Text Domain:  accelerate-theme-child
 	margin-bottom: 2em;
 }
 
-.blog-post h4 {
+.blog-post h4, h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin: 2em 0 .5em;
 }
 
@@ -50,10 +50,14 @@ Text Domain:  accelerate-theme-child
 }
 
 /* SINGLE CASE STUDIES PAGE (put these to media query)*/
- 
+
 .case-study{
 	display: flex;
 	padding: 1.2em;
+}
+
+.case-study-info{
+	width: 200%;
 }
 
 /*CASE STUDIES SAMPLES ON THE HOMEPAGE(put these to media query)*/
@@ -124,7 +128,6 @@ text-align: center;
 }
 
 .menu-item-type-custom{
-	margin: .5em;
 	margin: 0.5em;
 	width: 2em;
   height: 1.8em;
@@ -136,7 +139,7 @@ text-align: center;
 }
 
 
-footer, .site-footer p, .site-footer a {
+  .site-footer a {
     color: white;
 }
 
