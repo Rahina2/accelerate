@@ -30,17 +30,6 @@ function create_custom_post_types() {
         )
     );
 
-    register_post_type( 'about',
-        array(
-            'labels' => array(
-                'name' => __( 'About' ),
-                'singular_name' => __( 'about' )
-            ),
-            'public' => true,
-            'has_archive' => false,
-        )
-    );
-
    }
 add_action( 'init', 'create_custom_post_types' );
 

@@ -25,22 +25,14 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 
-	<<aside class="widget widget_search">
+	<aside class="widget widget_search">
 				<form role="search" method="get" id="searchform" class="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<input type="text" value="<?php echo get_search_query(); ?>" name="s" id="s" placeholder="search" />
 					<input type="submit" id="searchsubmit" value="" />
 				</form>
 			</aside>
 
-		<nav id="navigation" class="container">
-		<div class="left"><?php next_posts_link('&larr; <span>Older Posts</span>'); ?></div>
-		<div class="pagination">
-			<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-				echo 'Page '.$paged.' of '.$wp_query->max_num_pages;
-			?>
-		</div>
-		<div class="right"><?php previous_posts_link('<span>Newer Posts</span> &rarr;'); ?></div>
-	</nav>
+			<div class="about-contact"><h4>oops this page is nowhere to be found :) <span><a class="button" href="<?php echo site_url('/case-studies/') ?>">View our work</a></span></h4></div>
 
 	</section>
 

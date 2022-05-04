@@ -167,3 +167,76 @@ text-align: center;
 	background: #fff;
 }
 
+
+/**about page **/
+
+.about-main, .about-services{
+	width: 80%;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+}
+
+.hero-services-info p{
+	color: #fff;
+	width: 50%;
+	padding: 4em;
+}
+
+.hero-info{
+	color:#fff;
+}
+.about-services p{
+	text-align: center;
+    width: 80%;
+	background-color: #45ac9d;
+	margin-bottom: 10em;
+}
+
+.about-row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4em;
+}
+
+.about-info{
+	width: 40%;
+	padding: .5em;
+} 
+
+.about-images{
+	margin: 0 5em 0 0;
+	padding:0 5%;
+} 
+
+.about-contact{ 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid #bfbfbf;
+	width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 2em;
+    margin-bottom: 4em;
+}
+
+.about-contact h4{ 
+	color: #3b3b3b;
+	margin-right: 2em;
+}
+
+
+span{
+	margin:0 5em;
+}
+
+
+.contact-line{
+	width: 50%;
+	height: 60px;
+	color: #a6a6a6;
+} 
